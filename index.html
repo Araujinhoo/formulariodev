@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulários Para Dev's Iniciantes</h1>
+    <p>Se você se considera um desenvolvedor iniciante poderia me ajudar preenchendo este formulário ?</p>
+
+    <form>
+        <fieldset>
+            <div id="indentificaçao">
+                <label for="">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+                
+                <label for="">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div>
+                <label for="">Emil</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+        </fieldset>
+
+            <div>
+                <label for="">Há quantos meses você estuda progrmação ?</label>
+                <select name="" id="tempo">
+                    <option value="">selecione</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">+6</option>
+                    <option value="">+12</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="">Qual área tem sido seu foco?</label><br><br>
+                <input type="radio" name="foco" value="Front-End"> Front-End
+                <input type="radio" name="foco" value="Back-End"> Back-End
+                <input type="radio" name="foco" value="Full-Stack">Full-Stack
+            </div>
+
+            <div>
+                <label for="">Selecione quais linguagens você gostaria de dominar ?</label><br><br>
+                <input type="checkbox" id="linguagem1" nome="linguagem1" value="HTML">
+                <label for="linguagem1">HTML</label>
+                <input type="checkbox" id="linguagem2" nome="linguagem2" value="CSS">
+                <label for="linguagem2">CSS</label>
+                <input type="checkbox" id="linguagem3" nome="linguagem3" value="JavaScript">
+                <label for="linguagem2">JavaScript</label>
+                <input type="checkbox" id="linguagem4" nome="linguagem4" value="Paython">
+                <label for="linguagem2">Paython</label>
+                <input type="checkbox" id="linguagem5" nome="linguagem5" value="C#">
+                <label for="linguagem2">C#</label>
+                <input type="checkbox" id="linguagem6" nome="linguagem6" value="PHP">
+                <label for="linguagem2">PHP</label>
+                <input type="checkbox" id="linguagem7" nome="linguagem7" value="Java">
+                <label for="linguagem2">Java</label>
+            </div>
+
+            <div>
+                <label for="">Por que começou a estudar programação?</label><br><br>
+                <textarea rows="4" cols="45" id="estudo" name="estudo" style="font-size: 20px;"></textarea>
+            </div>
+
+            <div>
+                <label for="">Aonde espera chegar dentro dessa área?</label><br><br>
+                <textarea name="area" id="area" cols="45" rows="4" style="font-size: 20px;"></textarea>
+            </div>
+
+            <button id="botao" type="submit">Concluído</button>
+    </form>
+</body>
+</html>
